@@ -8,6 +8,7 @@
  'category': 'custom',
 
 # Author
+
  'author': 'odoo Ps',
  'website': 'https://www.odoo.com/',
  'license': '',
