@@ -15,7 +15,7 @@
 # Dependency
  'depends': ['contacts','sale_management','delivery_barcode','stock',],
  'data': [
-     'views/order_sale.xml',
+     'views/order_sale_view.xml',
     
  ],
 

@@ -1,10 +1,10 @@
 {
 #imfromation
     
- 'name':'Product Sale',
+ 'name':'Sales Order and Invoice',
  'version': '15.0',
- 'summary': 'Product Sale',
- 'description': 'Product Sale',
+ 'summary': 'Sales Order and Invoice',
+ 'description': 'Sales Order and Invoice',
  'category': 'custom',
 
 # Author
