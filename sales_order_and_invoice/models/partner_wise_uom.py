@@ -10,9 +10,9 @@ class PartnerWiseUom(models.Model):
     #  fields Declaration
     #---------------------------
 
-	partner_id = fields.Many2one('res.partner',default=lambda self: self.uid)
+	partner_id = fields.Many2one('res.partner')
 	product_id = fields.Many2one('product.product')
-	uom_id = fields.Many2one('uom.uom')
+	uom_id = fields.Many2one('uom.uom', domain="[('category_id','=', category_uom_ids)]")
 	category_uom_ids = fields.Many2one(related="product_id.uom_id.category_id")
-	uom_ids = fields.Many2one('uom.uom' , string='uom' , domain="[('category_id','=', category_uom_ids)]")
+	
 
