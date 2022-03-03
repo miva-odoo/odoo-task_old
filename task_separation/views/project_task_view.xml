@@ -12,14 +12,9 @@
                 <t t-if='record.parent_id.value'>
                    <b> <field name="parent_id"/>  : </b> <br></br>
                     <i class="fa fa-plus" style="font-size:10px"/>
-                </t>
-                   
-                
-            </xpath>
-
-            
+                </t>    
+            </xpath>   
         </field>    
    </record>
- 
-
+   
 </odoo>
